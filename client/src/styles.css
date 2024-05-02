@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light grey background */
+  margin: 0;
+  padding: 20px;
+  color: #333; /* Dark grey text */
+}
+
+nav {
+  background-color: #333; /* Dark background for the navbar */
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Flex display for horizontal layout */
+  justify-content: center; /* Center the navigation items */
+}
+
+nav ul li {
+  margin-right: 20px; /* Increased space between nav items */
+}
+
+nav ul li a {
+  color: #fff; /* White text color */
+  text-decoration: none;
+  font-weight: bold; /* Make the font bold */
+  transition: color 0.3s; /* Smooth transition for hover effects */
+}
+
+nav ul li a:hover {
+  color: #4CAF50; /* Green color on hover */
+}
+
+/* Styling for forms */
+form {
+  background: #fff; /* White background */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Shadow for depth */
+  max-width: 400px;
+  margin: 20px auto; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%; 
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 20px; /* Spacing between fields */
+  box-sizing: border-box; /* Include padding in width */
+  border: 1px solid #ccc; /* Subtle border */
+  border-radius: 4px; /* Rounded borders for the input fields */
+}
+
+button {
+  background-color: #5C67F2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+button:hover {
+  background-color: #4CAF50; 
+}
